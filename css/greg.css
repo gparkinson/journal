@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 10px;
+    text-align: left;
+    font-family: verdana;
+    font-size: 85%;
+    padding: 0px;
+    width: 200px;
+  }
+
+nav {
+	width: 20%;
+	float: left;
+    margin: 20px;
+    border-style: solid;
+    border-width: thin;
+}
+
+section {
+	float: left;
+	width: 70%;
+}
