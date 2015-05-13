@@ -1,19 +1,28 @@
 ul {
     list-style-type: none;
-    margin: 10px;
+    margin: 0%;
     text-align: left;
     font-family: verdana;
-    font-size: 85%;
+    font-size: 90%;
     padding: 0px;
-    width: 200px;
+   
   }
 
+#navDiv {
+    float: left;
+    width: 240px;
+    border: 1px solid;
+    margin: 1% 4%;
+}
+
+.imgDivRight {
+    float: right;
+}
+
 nav {
-	width: 20%;
-	float: left;
-    margin: 20px;
-    border-style: solid;
-    border-width: thin;
+
+    margin: 5%;
+   
 }
 
 section {
