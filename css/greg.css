@@ -1,3 +1,28 @@
+h1 {
+    font-family: verdana;
+    font-size: 300%;
+    float: left;
+}
+
+.comboHeader {
+    margin-left: 5%;
+}
+
+ul.title li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+ul.title {
+    float: right;
+    margin: 65px 10px;
+}
+
+
+li {
+    margin: 0 0 3px 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0%;
@@ -8,21 +33,29 @@ ul {
    
   }
 
+nav {
+
+    margin: 15px;
+   
+}
+
 #navDiv {
     float: left;
     width: 240px;
-    border: 1px solid;
+    border: 2px solid;
     margin: 1% 4%;
+    clear: left;
+}
+
+#logopic {
+    margin: 10px 40px;
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
 }
 
 .imgDivRight {
     float: right;
-}
-
-nav {
-
-    margin: 5%;
-   
 }
 
 section {
