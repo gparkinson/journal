@@ -1,22 +1,30 @@
+/* Page Header and links */
+
 h1 {
     font-family: verdana;
     font-size: 300%;
     float: left;
+    margin-right: 11%
 }
 
 .comboHeader {
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
-ul.title li {
+ul.titleLinks li {
     display: inline-block;
     margin-left: 10px;
+    color: blue;
 }
 
-ul.title {
-    float: right;
-    margin: 65px 10px;
+ul.titleLinks {
+    float: left;
+    margin: 60px 0% 0% 0%;
+    font-family: verdana;
+    font-size: 110%
 }
+
+/* Navigation box for article links */
 
 
 li {
@@ -34,16 +42,14 @@ ul {
   }
 
 nav {
-
     margin: 15px;
-   
-}
+   }
 
-#navDiv {
+.navDiv {
     float: left;
     width: 240px;
     border: 2px solid;
-    margin: 1% 4%;
+    margin: 2px 20px 10px 20px;
     clear: left;
 }
 
@@ -54,11 +60,22 @@ nav {
     border: 2px solid;
 }
 
+/* Articles */
+
+
 .imgDivRight {
     float: right;
 }
 
-section {
+#articleSection {
 	float: left;
 	width: 70%;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+h2 {
+    margin-top: 0px;
+
+
 }
