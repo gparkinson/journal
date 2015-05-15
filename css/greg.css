@@ -1,10 +1,18 @@
+body {
+    background-color: #D7FFD9;
+    color: #2600B2;
+
+}
+
+
 /* Page Header and links */
 
 h1 {
     font-family: verdana;
     font-size: 300%;
     float: left;
-    margin-right: 11%
+    margin-right: 11%;
+    color: #FF6E00;
 }
 
 .comboHeader {
@@ -60,22 +68,52 @@ nav {
     border: 2px solid;
 }
 
-/* Articles */
+/* Articles --------------------------------*/
 
+/* this encloses the journal articles */
+
+#articleSection {
+    float: left;
+    width: 70%;
+    margin-left: 10px;
+    margin-top: 2px;
+    }
+
+/* headers inside each article */
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+/* space between journal articles */
+
+.journalArticle {
+    margin-bottom: 20px;
+}
+
+/* footer of each article */
+
+.articleFooter {
+    color: #AB79B2;
+    font-style: italic;
+}
+
+/* floating images right */
 
 .imgDivRight {
     float: right;
 }
-
-#articleSection {
-	float: left;
-	width: 70%;
-    margin-left: 10px;
-    margin-top: 2px;
+.imgDivLeft {
+    float: left;
 }
 
-h2 {
-    margin-top: 0px;
 
 
-}
+
+
+
