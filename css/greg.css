@@ -78,25 +78,32 @@ nav {
     margin-left: 10px;
     margin-top: 2px;
 
+
     }
+
+    /* Each article */
+
+.journalArticle {
+    margin-bottom: 20px;
+    background-color: white;
+     border: 2px solid;
+     padding: 5px;
+}
 
 /* headers inside each article */
 
 h2 {
     margin-top: 0px;
     margin-bottom: 5px;
+
 }
 
 h3 {
     margin-top: 0px;
+     font-style: italic;
 }
 
-/* space between journal articles */
 
-.journalArticle {
-    margin-bottom: 20px;
-    background-color: white;
-}
 
 /* footer of each article */
 
